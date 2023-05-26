@@ -35,10 +35,11 @@ const styles = StyleSheet.create({
     //   },
     containerHeaderTitle:{
         fontSize:35,
-        color:"#F04A00",
+        color:"#ffffff",
         padding:25,
         fontWeight:"bold",
-        textAlign:"center"
+        textAlign:"center",
+        
 
     }
     //Título lista
@@ -75,6 +76,13 @@ const styles = StyleSheet.create({
         marginLeft:10,
         marginRight:10,
         padding:15,
+    },
+    overlay:{
+        opacity:0.5,
+        backgroundColor:"black",
+        flex:1,
+        alignItems:"center",
+        justifyContent:"center"
     },
     imgCard:{
         width:"40%",
