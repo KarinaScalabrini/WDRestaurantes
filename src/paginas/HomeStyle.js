@@ -6,44 +6,57 @@ const styles = StyleSheet.create({
         flex:1,
         backgroundColor:"#ffffff"
     },
+    container:{
+        flex:1,
+        backgroundColor:"#ffffff",
+    },
     // Header do app
     containerHeader:{
         alignItems: 'center',
         justifyContent: 'center',
         width:"100%",
-        height:450,
+        height:420,
         backgroundColor:"#ffffff",
         
     },
-    image:{
-        flex: 1,
-        justifyContent: 'center',
-        alignItems:'center',
-
-        
-    },
     backgroundImage:{
-        flex:1,
-        alignItems:"center",
-        justifyContent:"center",
-    },
-    // overlay: {
-    //     flex:1,
-    //     backgroundColor: 'black', // Ajuste a cor e a opacidade desejadas
-    //     alignItems: 'center',
-    //     justifyContent: 'center',
-    //   },
-    containerHeaderTitle:{
-        fontSize:35,
-        color:"#ffffff",
-        padding:25,
-        fontWeight:"bold",
-        textAlign:"center",
+        width:"100%",
+        height:'70%'
         
-
-    }
+    },
+    pesquisa:{
+        borderWidth:2,
+        borderColor:'black',
+        width:"70%",
+        height:45,
+        borderRadius:15,
+        flexDirection:'row',
+        alignItems:'center',
+        
+    },
+    favoritos:{
+        fontSize:33,
+        padding:5
+    },
+    pesquisa1:{
+        top:20,
+        flexDirection:'row',
+        justifyContent: 'space-around',
+        alignItems:'center',
+        width:'100%',
+        height:60,
+    },
+    search:{
+        float:'right',
+        fontSize:22,
+    },
+    inputPesquisa:{
+        width:'90%',
+        height:'100%',
+        borderRadius:15
+    },
     //Título lista
-    ,titleList:{
+    titleList:{
         fontSize:30,
         fontWeight:"bold",
         color:"#252422",
@@ -56,8 +69,7 @@ const styles = StyleSheet.create({
     //container lista de restaurantes
     ,containerRestaurantes:{
         width:"100%",
-        backgroundColor:"#ffffff",
-        
+        backgroundColor:"#ffffff"
     },
     boxRestaurantes:{
         height:150,
@@ -77,18 +89,15 @@ const styles = StyleSheet.create({
         marginRight:10,
         padding:15,
     },
-    overlay:{
-        opacity:0.5,
-        backgroundColor:"black",
-        flex:1,
-        alignItems:"center",
-        justifyContent:"center"
-    },
     imgCard:{
         width:"40%",
-        backgroundColor:"#c0c0c0",
         borderRadius:15,
-
+    },
+    iconHome:{
+        color:"#c0c0c0",
+        textAlign:'center',
+        flex:1,
+        paddingTop:20
     },
     infoCard:{
         width:"52%",
@@ -99,7 +108,8 @@ const styles = StyleSheet.create({
         width:"8%"
     },
     imgBox:{
-        flex:1
+        flex:1,
+        borderRadius:15
     },
     nomeRestaurante:{
         fontSize:15,
@@ -123,6 +133,7 @@ const styles = StyleSheet.create({
         marginTop:5,
         textAlign:"center"
     }
+
 });
 
 export default styles
